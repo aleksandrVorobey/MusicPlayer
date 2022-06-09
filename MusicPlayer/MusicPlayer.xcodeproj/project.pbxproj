@@ -29,6 +29,7 @@
 		848D9FDC284F89B6008CDF7F /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D9FDB284F89B6008CDF7F /* AudioTrack.swift */; };
 		848D9FDE284F89C5008CDF7F /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D9FDD284F89C5008CDF7F /* Artist.swift */; };
 		848D9FE0284F89D3008CDF7F /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D9FDF284F89D3008CDF7F /* UserProfile.swift */; };
+		848D9FE2284FABDE008CDF7F /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D9FE1284FABDE008CDF7F /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		848D9FDB284F89B6008CDF7F /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
 		848D9FDD284F89C5008CDF7F /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		848D9FDF284F89D3008CDF7F /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		848D9FE1284FABDE008CDF7F /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				848D9FAB284F778B008CDF7F /* Assets.xcassets */,
 				848D9FA2284F7789008CDF7F /* AppDelegate.swift */,
 				848D9FA4284F7789008CDF7F /* SceneDelegate.swift */,
+				848D9FE1284FABDE008CDF7F /* Extension.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				848D9FA7284F7789008CDF7F /* HomeViewController.swift in Sources */,
 				848D9FD8284F8930008CDF7F /* HapticsManager.swift in Sources */,
 				848D9FDC284F89B6008CDF7F /* AudioTrack.swift in Sources */,
+				848D9FE2284FABDE008CDF7F /* Extension.swift in Sources */,
 				848D9FC6284F8860008CDF7F /* AuthViewController.swift in Sources */,
 				848D9FA3284F7789008CDF7F /* AppDelegate.swift in Sources */,
 				848D9FC2284F879A008CDF7F /* LibraryViewController.swift in Sources */,
@@ -413,7 +417,6 @@
 				INFOPLIST_FILE = MusicPlayer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -441,7 +444,6 @@
 				INFOPLIST_FILE = MusicPlayer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
